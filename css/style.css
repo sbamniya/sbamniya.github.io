@@ -963,6 +963,7 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
 .team-gd img {
     width: 100%;
 	border-bottom: 9px solid rgba(0, 0, 0, 0.81);
+	
 }
 /*-- portfolio --*/
 
@@ -1066,6 +1067,9 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
 .team-gd {
     padding: 0;
 	position:relative;
+	height: 260px;
+	overflow: hidden;
+	margin-bottom: 10px;
 }
 .bottom-top {
     margin: 0 auto;
