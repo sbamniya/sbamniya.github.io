@@ -517,12 +517,13 @@
                             return;
                         }
 
-                        $.post("mail.php", data).then(function (data) {
+                        $.post("https://edusysind.herokuapp.com/send-email", data).then(function (data) {
                             console.log(data)
                             form.find(".alert").show();
                             setTimeout(() => {
                                 form.find(".alert").hide();
                             }, 5000);
+                            form.reset()
                         })
                     })
                 </script>
